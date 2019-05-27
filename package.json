@@ -1,7 +1,23 @@
 {
-  "name": "authorization-with-graphql-passport-and-react",
+  "name": "authentication-with-graphql-passport-and-react-starter",
   "version": "0.1.0",
-  "private": true,
+  "description": "Starter project accompanying a series of articles on authentication with GraphQL",
+  "keywords": [
+    "graphql",
+    "auth",
+    "authentication",
+    "passport"
+  ],
+  "author": {
+    "name": "Johannes Kettmann",
+    "email": "johannes@jkettmann.com",
+    "url": "https://jkettmann.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkettmann/authentication-with-graphql-passport-and-react-starter.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
