@@ -20,10 +20,12 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "express-session": "^1.16.2",
     "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "npm run start:api",
