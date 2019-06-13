@@ -19,12 +19,16 @@
   },
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run start:api",
+    "start:app": "react-scripts start",
+    "start:api": "nodemon --watch ./api --exec \"babel-node --inspect --presets=@babel/env ./api/index.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/node": "^7.4.5"
   }
 }
