@@ -2,6 +2,10 @@ import express from 'express';
 import session from 'express-session';
 import uuid from 'uuid/v4';
 import passport from 'passport';
+import { ApolloServer } from 'apollo-server-express';
+import User from './User';
+import typeDefs from './typeDefs';
+import resolvers from './resolvers';
 
 const PORT = 4000;
 const SESSION_SECRECT = 'bad secret';
@@ -27,6 +31,22 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
+
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  context: ({ req }) => ({
+    user: req.user,
+    logout: () => req.logout(),
+  }),
+  playground: {
+    settings: {
+      'request.credentials': 'same-origin',
+    },
+  },
+});
+
+server.applyMiddleware({ app });
 
 app.listen({ port: PORT }, () => {
   console.log(`🚀 Server ready at http://localhost:${PORT}`);
