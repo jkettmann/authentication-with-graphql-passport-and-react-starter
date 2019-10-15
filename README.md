@@ -2,13 +2,17 @@ This project was set up using `create-react-app`. All client side code resides i
 
 ## Articles of this series
 
-[Introduction and implementation of dummy API](https://jkettmann.com/authentication-and-authorization-with-graphql-and-passport/)
+[Preparing a GraphQL server for authentication](https://jkettmann.com/authentication-and-authorization-with-graphql-and-passport/)
 
-[Authentication with credentials using GraphQL and Passport](https://jkettmann.com/password-based-authentication-with-graphql-and-passport/)
+[Password-based authentication with GraphQL and Passport](https://jkettmann.com/password-based-authentication-with-graphql-and-passport/)
 
 [Facebook login with GraphQL and Passport](https://jkettmann.com/facebook-login-with-graphql-and-passport/)
 
-Apollo-React app for authentication with GraphQL and Passport (coming soon)
+[Building the React  frontend](https://jkettmann.com/authentication-with-graphql-and-passport-js-the-frontend/)
+
+[3 ways for authorization with GraphQL and Apollo](https://jkettmann.com/3-ways-for-authorization-with-graphql-and-apollo/)
+
+[Authorization with GraphQL and custom directives](https://jkettmann.com/authorization-with-graphql-and-custom-directives/)
 
 
 ## How to install and run the project

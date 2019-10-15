@@ -24,3 +24,8 @@ yarn-error.log*
 
 # editor
 .vscode
+
+# environment variables
+.env
+
+post.md

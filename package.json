@@ -19,16 +19,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^2.6.3",
+    "apollo-server-express": "^2.9.6",
     "express": "^4.17.1",
-    "express-session": "^1.16.2",
-    "graphql": "^14.3.1",
-    "nodemon": "^1.19.1",
+    "express-session": "^1.17.0",
+    "graphql": "^14.5.8",
+    "nodemon": "^1.19.3",
     "passport": "^0.4.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "uuid": "^3.3.2"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "start": "npm run start:api",
@@ -54,6 +54,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/node": "^7.4.5"
+    "@babel/node": "^7.6.3"
   }
 }

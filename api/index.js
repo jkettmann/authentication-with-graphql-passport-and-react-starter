@@ -36,7 +36,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   context: ({ req }) => ({
-    user: req.user,
+    getUser: () => req.user,
     logout: () => req.logout(),
   }),
   playground: {
